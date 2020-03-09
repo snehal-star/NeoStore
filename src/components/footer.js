@@ -1,8 +1,12 @@
 import React from 'react';
-import '../assets/css/footerstyle.css'
+
 import {Container,Row,Col, InputGroup,FormControl} from 'react-bootstrap'
 import {Button} from 'react-bootstrap'
+import '../assets/css/footerstyle.css'
+
 export default function Footer(){
+    let d=new Date();
+        let year=d.getFullYear();
     return(
         <Container fluid={true}>
             <Row className="footerContent">
@@ -49,7 +53,7 @@ export default function Footer(){
                 </Col>
             </Row>
             <Row className="footer_endTag">
-                <p>Copyright 2017 NeoSOFT Technologies All rights reserved | Design By Shubham Soni</p>
+                <p>Copyright {year} NeoSOFT Technologies All rights reserved | Design By Snehal Patil</p>
             </Row>
         </Container>
     );

@@ -17,7 +17,7 @@ export default class HomeNavbar extends React.Component{
                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                    <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto homeNav_items">
-                        <Nav.Link className="navbarBrand_home" href="#home"><Link to="/HomePage">HOME</Link></Nav.Link>
+                        <Nav.Link className="navbarBrand_home" href="#home"><Link to="/">HOME</Link></Nav.Link>
                         <Nav.Link className="navbarBrand_product" href="#product"><Link to="/Products">PRODUCTS</Link></Nav.Link>
                         <Nav.Link className="navbarBrand_order" href="#order"><Link to="/Order">ORDER</Link></Nav.Link>
                         <InputGroup className="mb-3 input" inline>
